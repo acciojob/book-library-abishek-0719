@@ -17,6 +17,8 @@ body {
 .book-library h1 {
   text-align: center;
   margin-bottom: 20px;
+  padding-bottom: 40px;  /* ✅ white empty space below heading */
+  border-bottom: 1px solid #eee; /* optional separator line */
 }
 
 .book {
